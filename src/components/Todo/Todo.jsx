@@ -3,7 +3,7 @@ import Button from "../../ui/Button.jsx";
 import InputField from "../../ui/InputField.jsx";
 import TextInput from "../../ui/TextInput.jsx";
 import { useDispatch } from "react-redux";
-import { addTodo, updateTodo } from "../../todo/todoSlice.js";
+import { addTodo, updateTodo } from "../../slices/todoSlice.js";
 import TodoContainer from "./TodoContainer.jsx";
 
 const Todo = () => {

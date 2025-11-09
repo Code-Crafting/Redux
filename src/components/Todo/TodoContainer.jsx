@@ -1,7 +1,7 @@
 import { AiOutlineDelete } from "react-icons/ai";
 import Icon from "../../ui/Icon";
 import { useDispatch, useSelector } from "react-redux";
-import { removeTodo, updateTodo } from "../../todo/todoSlice";
+import { removeTodo, updateTodo } from "../../slices/todoSlice";
 import { CiEdit } from "react-icons/ci";
 
 const TodoContainer = ({ setInput, setIsUpdating, setInputId }) => {
